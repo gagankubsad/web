@@ -4,5 +4,5 @@
   tasks:
   - name: copy
     copy:
-      content: "deploy through ansible"
+      content: "deploy through jenkins"
       dest: ./ansi.txt
