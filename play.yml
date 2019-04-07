@@ -2,11 +2,7 @@
 - name: ansi
   hosts: localhost
   tasks:
-  - name: copy
-    copy:
-      content: "jnkins"
-      dest: ./ansi.txt
-  - name: copy
-    copy:
-      content: "jnkins"
-      dest: ./ansi1.txt
+  - name: install
+    yum:
+      name: mod_ssl
+      state: present
