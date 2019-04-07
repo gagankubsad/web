@@ -4,5 +4,5 @@
   tasks:
   - name: install
     yum:
-      name: mod_ssl
-      state: remove
+      name: mod_wsgi
+      state: present
