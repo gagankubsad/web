@@ -5,4 +5,4 @@
   - name: install
     yum:
       name: mod_ssl
-      state: present
+      state: remove
