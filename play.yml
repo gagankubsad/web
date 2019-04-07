@@ -6,3 +6,7 @@
     yum:
       name: autofs
       state: present
+  - name: 
+    user:
+      name: u1
+      state: present
